@@ -1,7 +1,7 @@
 <h1 align="center">Portfolio </h1>
 <h2 align="center">Check Live Demo here <a href="https://rishunayak.github.io/"  target="_blank"> Visit </a> </h2>
 
-<img src="https://media.discordapp.net/attachments/702481980025077853/1036339092687953940/unknown.png?width=1379&height=676"  />
+<img src=""  />
 
 
 <div align="center">
