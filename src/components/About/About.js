@@ -49,7 +49,6 @@ function About  () {
                  <div>
         
                    <img src='' alt='Ameer Hamza' id='profile'/>
-                   {/* <img src='https://avatars.githubusercontent.com/u/57229844?v=4' alt='Ameer Hamza' id='profile'/> */}
     
                  </div>
 
@@ -60,13 +59,13 @@ function About  () {
                     </h4>
                     <br/>
                   <div id='interest' >
-                   <h4 className='about__desc'> Some of my interests apart form Coding :</h4>
+                   <h4 className='about__desc'> Some of my interests apart from Coding :</h4>
                
-                   <BiStar className='about__name'/> <span className='about__name'> Listing Music</span>
+                   <BiStar className='about__name'/> <span className='about__name'> Listening Music</span>
                    <br/>
                    <BiStar className='about__name'/> <span className='about__name'> Playing Badminton </span>
                    <br/>
-                   <BiStar className='about__name'/> <span className='about__name'> Watching Cricket</span>
+                   <BiStar className='about__name'/> <span className='about__name'> Playing Cricket</span>
                    <br/>
                     <BiStar className='about__name' /> <span className='about__name'>Watching Movies</span>
                     </div>
@@ -111,7 +110,7 @@ function About  () {
         </VerticalTimelineElement>
 
 
-        <VerticalTimelineElement date='June 2018 - June 2021'  icon={<SchoolIcon />} contentStyle={{
+        <VerticalTimelineElement date='2019 - 2021'  icon={<SchoolIcon />} contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
               textAlign: "center",
@@ -128,15 +127,14 @@ function About  () {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-              Bachelor of Computer Application (BCA)
+              FSC Pre-Engineering
             </h4>
             <p data-aos="fade-right">
-               Babu Banarasi Das University, Lucknow
+               KIPS College, Ameer Chowk.
             </p>
 
         </VerticalTimelineElement>
-
-
+            
         <VerticalTimelineElement
             icon={<StarRateIcon />}
             iconStyle={{
