@@ -1,7 +1,7 @@
 <h1 align="center">Portfolio </h1>
 <h2 align="center">Check Live Demo here <a href="https://rishunayak.github.io/"  target="_blank"> Visit </a> </h2>
 
-<img src=""  />
+<img src="https://github.com/Ameer-Hamza289/portfolio/blob/main/preview.jpeg"  />
 
 
 <div align="center">
