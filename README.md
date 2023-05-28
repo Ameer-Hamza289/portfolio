@@ -1,5 +1,5 @@
 <h1 align="center">Portfolio </h1>
-<h2 align="center">Check Live Demo here <a href="https://rishunayak.github.io/"  target="_blank"> Visit </a> </h2>
+<h2 align="center">Check Live Demo here <a href="https://ameer-hamza-portfolio.netlify.app/"  target="_blank"> Visit </a> </h2>
 
 <img src="https://github.com/Ameer-Hamza289/portfolio/blob/main/preview.jpeg"  />
 
