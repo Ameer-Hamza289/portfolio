@@ -66,12 +66,12 @@ function Projects()
 
 
       <div id='b'>
-       <a href="https://fantastic-seahorse-6456d7.netlify.app/"  target="_blank">
+       <a href="#"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/masai-course/rishukumar_fw20_0888/tree/master/unit-3/evaluation/Movies%20App" target="_blank" >
+          <a href="#" target="_blank" >
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -135,12 +135,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://gorgeous-taiyaki-33aee8.netlify.app/index.html"  target="_blank">
+       <a href="#"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/rishunayak/sore-rate-9569"  target="_blank">
+          <a href="#"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -199,12 +199,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="https://decisive-iron-5903.vercel.app/"  target="_blank">
+       <a href="#"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="https://github.com/rishunayak/decisive-iron-5903"  target="_blank">
+          <a href="#"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
