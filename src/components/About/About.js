@@ -48,7 +48,7 @@ function About  () {
                  
                  <div>
         
-                   <img src='' alt='Ameer Hamza' id='profile'/>
+                   <img src='https://github.com/Ameer-Hamza289/portfolio/blob/main/image.png' alt='Ameer Hamza' id='profile'/>
     
                  </div>
 
