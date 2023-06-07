@@ -6,6 +6,7 @@ import StarRateIcon from "@material-ui/icons/StarRate";
   import { useState } from 'react';
   import { useEffect } from 'react';
 import {BiStar} from "react-icons/bi"
+import Image from '../assets/image.png'
 
 import {
   VerticalTimeline,
@@ -48,7 +49,7 @@ function About  () {
                  
                  <div>
         
-                   <img src='https://github.com/Ameer-Hamza289/portfolio/blob/main/image.png' alt='Ameer Hamza' id='profile'/>
+                   <img src={Image} alt='Ameer Hamza' id='profile'/>
     
                  </div>
 

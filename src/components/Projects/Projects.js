@@ -1,10 +1,22 @@
-import {FaReact} from "react-icons/fa"
-import {SiCss3,SiHtml5} from "react-icons/si"
-import {TbApi} from "react-icons/tb"
+import {FaReact,FaNode} from "react-icons/fa"
+import {SiCss3,SiHtml5,SiMongodb} from "react-icons/si"
 import {IoLogoJavascript} from "react-icons/io"
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
+//import assets
+import Rpreview1 from '../assets/Resort-p1.jpg'
+import Rpreview2 from '../assets/Resort-p2.jpg'
+import Rpreview3 from '../assets/Resort-p3.jpg'
+
+import Tpreview1 from '../assets/todo-p1.jpeg'
+import Tpreview2 from '../assets/todo-p2.jpeg'
+import Tpreview3 from '../assets/todo-p3.jpeg'
+
+import Epreview1 from '../assets/exercise-p1.jpg'
+import Epreview2 from '../assets/exercise-p2.jpg'
+import Epreview3 from '../assets/exercise-p3.jpg'
+
 
 
 import '../ProjectContainer/ProjectContainer.css'
@@ -27,14 +39,14 @@ function Projects()
       <div>
          <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034460531043614800/unknown.png?width=1363&height=675" alt="Image 1"/>
+             <img src={Rpreview1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034490981522878554/unknown.png?width=1440&height=658" alt="Image 2"/>
+           <img src={Rpreview2} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034491057368477906/unknown.png?width=1440&height=657" alt="Image 2"/>
+           <img src={Rpreview3} alt="Image 2"/>
            </SplideSlide>
 
         </Splide>
@@ -42,11 +54,10 @@ function Projects()
    
      <div>
 
-        <h3 className="about_project">Movie App</h3>
+        <h3 className="about_project">Hotel Reservation App</h3>
 
         <p className='project__description'>
-          In the Movie App, you can search for any movie with all its details such as rating, release date, actors etc.
-        </p>
+        The Beach Resort App is a Web application focused on providing a seamless booking experience for beachside accommodations. It allows users to easily reserve rooms, check availability, and access essential information about the resort, ensuring a convenient stay.        </p>
 
    
         <ul className='project__stack' >
@@ -55,7 +66,7 @@ function Projects()
             <SiHtml5 size={40} />
              <IoLogoJavascript size={40} />
             <SiCss3 size={40}/>
-            <TbApi size={50}/>
+            <FaReact size={50}/>
           </li>
       
         </ul>
@@ -66,12 +77,12 @@ function Projects()
 
 
       <div id='b'>
-       <a href="#"  target="_blank">
+       <a href="https://hotel-reserving-app.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="#" target="_blank" >
+          <a href="https://github.com/Ameer-Hamza289/Beach_Resort" target="_blank" >
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -95,18 +106,14 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034502096214573056/unknown.png?width=1375&height=676" alt="Image 1"/>
+             <img src={Tpreview1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034502234035191838/unknown.png?width=1373&height=676" alt="Image 2"/>
+           <img src={Tpreview2} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034502334878851162/unknown.png?width=1375&height=676" alt="Image 2"/>
-           </SplideSlide>
-
-           <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034502449890856960/unknown.png?width=1375&height=676" alt="Image 2"/>
+           <img src={Tpreview3} alt="Image 2"/>
            </SplideSlide>
 
 
@@ -115,11 +122,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Bella Vita Organic Clone</h3>
+  <h3 className="about_project">Todo List</h3>
 
   <p className='project__description'>
-  Bella Vita Organic is an Ecommerce Website for natural products for beauty, skincare, and perfumes.A collaborative project team leader built by a team of 3 executed in 5 days. 
-  </p>
+  MERN Todo List offers a convenient and flexible solution for managing tasks effectively. It combines the power of the MERN stack with a sleek and intuitive interface, making it the ideal tool for boosting productivity and keeping track of your to-do list.  </p>
 
 
   <ul className='project__stack' >
@@ -128,6 +134,9 @@ function Projects()
       <SiHtml5 size={40} />
        <IoLogoJavascript size={40} />
       <SiCss3 size={40}/>
+      <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
 
     </li>
 
@@ -135,12 +144,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="#"  target="_blank">
+       <a href="https://mern-todo-list-app.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="#"  target="_blank">
+          <a href="https://github.com/Ameer-Hamza289/MERN_TODO"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
@@ -163,14 +172,14 @@ function Projects()
 <div>
 <Splide  options={ { rewind: true , gap   : '1rem', heightRatio:.53 } } aria-label="React Splide Example">
             <SplideSlide>
-             <img src="https://media.discordapp.net/attachments/702481980025077853/1034508981898580058/unknown.png?width=1373&height=676" alt="Image 1"/>
+             <img src={Epreview1} alt="Image 1"/>
             </SplideSlide>
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034509092573691914/unknown.png?width=1369&height=676" alt="Image 2"/>
+           <img src={Epreview2} alt="Image 2"/>
            </SplideSlide>
 
            <SplideSlide>
-           <img src="https://media.discordapp.net/attachments/702481980025077853/1034509195871002674/unknown.png?width=1375&height=676" alt="Image 2"/>
+           <img src={Epreview3} alt="Image 2"/>
            </SplideSlide>
 
         </Splide>
@@ -178,11 +187,10 @@ function Projects()
 
 <div>
 
-  <h3 className="about_project">Deccan Herald Clone</h3>
+  <h3 className="about_project">Exercise Tracker</h3>
 
   <p className='project__description'>
-   Deccan Herald is an Indian English language daily newspaper published from the Indian state of Karnataka. Solo project executed in 5 days.
-  </p>
+  The Exercise Tracker is a web application that allows users to track their fitness activities and monitor their progress. With its intuitive interface and comprehensive features, it assists individuals in maintaining an organized exercise routine.  </p>
 
 
   <ul className='project__stack' >
@@ -192,6 +200,8 @@ function Projects()
        <IoLogoJavascript size={40} />
       <SiCss3 size={40}/>
       <FaReact size={40}/>
+      <FaNode size={40}/>
+      <SiMongodb size={40}/>
 
     </li>
 
@@ -199,12 +209,12 @@ function Projects()
 
 
    <div id='b'>
-       <a href="#"  target="_blank">
+       <a href="https://exercise-tracker-app-mern-01.netlify.app/"  target="_blank">
             <span type='button' className='btn btn--outline'>  Watch Live </span>
           </a>
 
 
-          <a href="#"  target="_blank">
+          <a href="https://github.com/Ameer-Hamza289/mern_exercise-tracker"  target="_blank">
             <span type='button' className='btn btn--outline'>  View Code </span>
           </a>
     
