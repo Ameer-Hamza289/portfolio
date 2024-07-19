@@ -15,7 +15,7 @@ function Home()
         </h1>
     
       <h2 className="typer"> 
-        <Typewriter options={{strings:["A Full Stack Web Developer", "A Sport person","Curious to learn new things"],
+        <Typewriter options={{strings:["A Full Stack Software Developer", "A Sport person","Curious to learn new things"],
         autoStart:true,loop:true,deleteSpeed:50}}/>
       </h2> 
 
