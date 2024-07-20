@@ -4,6 +4,7 @@ import {
   FaReact,
   FaNodeJs,
   FaGithub,
+  FaGit,
 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import {
@@ -12,7 +13,13 @@ import {
   SiExpress,
   SiBootstrap,
   SiNetlify,
+  SiVercel,
   SiJquery,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMysql,
+  SiGit,
+  SiTypescript,
 } from "react-icons/si";
 import Githubcalendar from "react-github-calendar";
 
@@ -40,8 +47,18 @@ function Skills() {
         </li>
 
         <li className="skills__list-item btn btn--plain">
+          <SiTailwindcss size={80} id="color" />
+          <h5>Tailwind</h5>
+        </li>
+
+        <li className="skills__list-item btn btn--plain">
           <TbBrandJavascript size={80} id="color" />
           <h5> JavaScript</h5>
+        </li>
+
+        <li className="skills__list-item btn btn--plain">
+          <SiTypescript size={80} id="color" />
+          <h5> TypeScript</h5>
         </li>
 
         <li className="skills__list-item btn btn--plain">
@@ -55,8 +72,18 @@ function Skills() {
         </li>
 
         <li className="skills__list-item btn btn--plain">
+          <SiNextdotjs size={80} id="color" />
+          <h5> Next</h5>
+        </li>
+
+        <li className="skills__list-item btn btn--plain">
           <SiMongodb size={80} id="color" />
           <h5>MongoDB</h5>
+        </li>
+
+        <li className="skills__list-item btn btn--plain">
+          <SiMysql size={80} id="color" />
+          <h5>MySQL</h5>
         </li>
 
         <li className="skills__list-item btn btn--plain">
@@ -75,6 +102,10 @@ function Skills() {
         </li>
 
         <li className="skills__list-item btn btn--plain">
+          <SiGit size={80} id="color" />
+          <h5>Git</h5>
+        </li>
+        <li className="skills__list-item btn btn--plain">
           <FaGithub size={80} id="color" />
           <h5>GitHub</h5>
         </li>
@@ -82,6 +113,11 @@ function Skills() {
         <li className="skills__list-item btn btn--plain">
           <SiNetlify size={80} id="color" />
           <h5>Netlify</h5>
+        </li>
+
+        <li className="skills__list-item btn btn--plain">
+          <SiVercel size={80} id="color" />
+          <h5>Vercel</h5>
         </li>
       </div>
 
