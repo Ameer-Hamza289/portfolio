@@ -6,7 +6,7 @@ import { useContext } from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { BiStar } from "react-icons/bi"
-import Image from '../assets/image.png'
+import Image from '../assets/web_logo-no-bg.png'
 
 import {
   VerticalTimeline,
