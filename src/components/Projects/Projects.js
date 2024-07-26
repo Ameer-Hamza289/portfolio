@@ -9,27 +9,31 @@ import Rpreview1 from "../assets/Resort-p1.jpg";
 import Rpreview2 from "../assets/Resort-p2.jpg";
 import Rpreview3 from "../assets/Resort-p3.jpg";
 
-import Tpreview1 from "../assets/todo-p1.jpeg";
-import Tpreview2 from "../assets/todo-p2.jpeg";
-import Tpreview3 from "../assets/todo-p3.jpeg";
+import Tpreview1 from "../assets/chatalyst-I.png";
+import Tpreview2 from "../assets/chatalyst-II.png";
+import Tpreview3 from "../assets/chatalyst-III.png";
 
-import Epreview1 from "../assets/exercise-p1.jpg";
-import Epreview2 from "../assets/exercise-p2.jpg";
-import Epreview3 from "../assets/exercise-p3.jpg";
+import Epreview1 from "../assets/Digitic-I.png";
+import Epreview2 from "../assets/Digitic-III.png";
+import Epreview3 from "../assets/Digitic-II.png";
+
+import Spreview1 from "../assets/SkillWave-I.png";
+import Spreview2 from "../assets/Skillwave-III.png";
+import Spreview3 from "../assets/SkillWave-II.png";
 
 import "../ProjectContainer/ProjectContainer.css";
 import "./Projects.css";
 
 function Projects() {
-  const projects=[{
-    name:"Lending Career",
-    description:"",
-    url:"",
-    images:[],
-    stack:[],
-    
-
-  }]
+  const projects = [
+    {
+      name: "Lending Career",
+      description: "",
+      url: "",
+      images: [],
+      stack: [],
+    },
+  ];
   return (
     <section id="projects" className="section projects">
       <h2 className="section__title about_project">Projects</h2>
@@ -119,7 +123,7 @@ function Projects() {
         </div>
 
         <div>
-          <h3 className="about_project">Todo List</h3>
+          <h3 className="about_project">Chatalyst</h3>
 
           <p className="project__description">
             MERN Todo List offers a convenient and flexible solution for
@@ -147,7 +151,7 @@ function Projects() {
               </span>
             </a>
 
-            <a
+            {/* <a
               href="https://github.com/Ameer-Hamza289/MERN_TODO"
               target="_blank"
             >
@@ -155,7 +159,7 @@ function Projects() {
                 {" "}
                 View Code{" "}
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -184,13 +188,13 @@ function Projects() {
         </div>
 
         <div>
-          <h3 className="about_project">Exercise Tracker</h3>
+          <h3 className="about_project">Digitic</h3>
 
           <p className="project__description">
-            The Exercise Tracker is a web application that allows users to track
-            their fitness activities and monitor their progress. With its
-            intuitive interface and comprehensive features, it assists
-            individuals in maintaining an organized exercise routine.{" "}
+            A comprehensive full-stack multi-vendor e-commerce application that
+            allows multiple vendors to list and sell products on a unified
+            platform.Enabled multiple vendors to sell their products online
+            efficiently, leading to increased sales and user satisfaction.
           </p>
 
           <ul className="project__stack">
@@ -206,7 +210,7 @@ function Projects() {
 
           <div id="b">
             <a
-              href="https://exercise-tracker-app-mern-01.netlify.app/"
+              href="https://grand-mern-e-commerce-app-frontend.vercel.app/"
               target="_blank"
             >
               <span type="button" className="btn btn--outline">
@@ -232,26 +236,26 @@ function Projects() {
             aria-label="React Splide Example"
           >
             <SplideSlide>
-              <img src={Rpreview1} alt="Image 1" />
+              <img src={Spreview1} alt="Image 1" />
             </SplideSlide>
             <SplideSlide>
-              <img src={Rpreview2} alt="Image 2" />
+              <img src={Spreview2} alt="Image 2" />
             </SplideSlide>
 
             <SplideSlide>
-              <img src={Rpreview3} alt="Image 2" />
+              <img src={Spreview3} alt="Image 2" />
             </SplideSlide>
           </Splide>
         </div>
 
         <div>
-          <h3 className="about_project">Chatalyst</h3>
+          <h3 className="about_project">Skillwave</h3>
 
           <p className="project__description">
-            The Beach Resort App is a Web application focused on providing a
-            seamless booking experience for beachside accommodations. It allows
-            users to easily reserve rooms, check availability, and access
-            essential information about the resort, ensuring a convenient stay.{" "}
+            An e-learning platform built on Next.js that provides a seamless
+            learning experience with various courses and interactive content.
+            Facilitated effective online learning, leading to high user
+            engagement and positive feedback from both learners and educators.
           </p>
 
           <ul className="project__stack">
@@ -264,14 +268,14 @@ function Projects() {
           </ul>
 
           <div id="b">
-            <a href="https://hotel-reserving-app.netlify.app/" target="_blank">
+            <a href="https://lms-mern-nine.vercel.app/" target="_blank">
               <span type="button" className="btn btn--outline">
                 {" "}
                 Watch Live{" "}
               </span>
             </a>
 
-            <a
+            {/* <a
               href="https://github.com/Ameer-Hamza289/Beach_Resort"
               target="_blank"
             >
@@ -279,7 +283,7 @@ function Projects() {
                 {" "}
                 View Code{" "}
               </span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
