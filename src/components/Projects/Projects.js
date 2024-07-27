@@ -144,7 +144,7 @@ function Projects() {
           </ul>
 
           <div id="b">
-            <a href="https://mern-todo-list-app.netlify.app/" target="_blank">
+            <a href="https://chatalyst.com/" target="_blank">
               <span type="button" className="btn btn--outline">
                 {" "}
                 Watch Live{" "}
